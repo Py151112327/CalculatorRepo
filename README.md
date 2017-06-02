@@ -1,4 +1,4 @@
-Repository dah Beres tinggal Maen Push & Pull
+#Repository dah Beres tinggal Maen Push & Pull
 Nih Petunjuk pake Git :
 
 1)  Download Git, Install (Next,Next,Next :v)
@@ -29,3 +29,4 @@ nah ini yg bakal berulang2 :
 
 Nah lakukan step 2 - 3 berulang (1 - 3 klo mw data akurat) setiap kalian mau tambah isi code
 okay Done :v
+#
