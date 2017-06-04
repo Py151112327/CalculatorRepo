@@ -30,7 +30,7 @@ nah ini yg bakal berulang2 :
 1)  Pastikan data Di foldermu merupakan data yg terupdate dari remote Repository sebelum mengedit Code
     (kalo bsa lakukan 12 jam sekali !)
     
-    Tulis       : git pull -u origin master
+    Tulis       : git pull origin master
     
 2)  Lakukan Editing pada file (ngoding lah :v)
 
