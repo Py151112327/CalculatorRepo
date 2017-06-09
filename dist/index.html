@@ -1,77 +1,169 @@
-<!DOCTYPE html>
+
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <title>Calculator</title>
-    <link rel="stylesheet" type="text/css" href="build/build.css">
+    <link rel="stylesheet" type="text/css" href="build/build.css"/>
+    <!-- first link to jquery-->
   </head>
   <body>
-    <article>
-      <section>
+    <article class="bespoke-parent">
+      <section data-bespoke-backdrop="zamrud" class="emphatic-text">
         <h1>Project TKPPL</h1>
         <h2>Presentasi Dengan Bespoke</h2>
         <h3>Kolaborasi & Planning Dengan Tools Trello dan Github</h3>
       </section>
-      <section>
-        <h1>Isi dengan Anggota Kelompok</h1>
+      <section data-bespoke-backdrop="merahtomat" class="emphatic-text">
+        <h1 font-size=" px">Topik: Calculator</h1>
+        <h6>Alamat Github: https://github.com/Py151112327/CalculatorRepo.git</h6>
+        <h6>Alamat Trello: https://trello.com/b/pOZbNIAV/calculator</h6>
+        <ul id="contslide2">
+          <li class="boxAnggota2"></li>
+          <li class="boxAnggota">
+            <h5>Anggota 1
+              <h6>Nama : Pyter Wahyu</h6>
+              <h6>NIM  : 151112327</h6>
+            </h5>
+          </li>
+          <li class="boxAnggota">
+            <h5>Anggota 2 
+              <h6>Nama : Dicky Valentinus</h6>
+              <h6>NIM  : 151110261</h6>
+            </h5>
+          </li>
+          <li class="boxAnggota">
+            <h5>Anggota 3
+              <h6>Nama : Vincent Valentinus</h6>
+              <h6>NIM  : 151110288</h6>
+            </h5>
+          </li>
+          <li class="boxAnggota">
+            <h5>Anggota 4
+              <h6>Nama : Stanley Junius</h6>
+              <h6>NIM  : 151110725</h6>
+            </h5>
+          </li>
+        </ul>
       </section>
-      <section>
+      <section data-bespoke-backdrop="hijoterang" class="emphatic-text">
         <h1>Calculator</h1>
       </section>
-      <section>
-        <h2>Kosong Isi dengan (max : 3 slide) berisi sejarah Calculator</h2>
-        <h3>Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a></h3>
-      </section>
-      <section>
-        <h2>Program Calculator Dengan Javascript</h2>
-        <h3>Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a></h3>
-      </section>
-      <section>
-        <h2>Penutup</h2>
-        <h3>Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a></h3>
-      </section>
-      <section>
-        <h2>Bullet List</h2>
-        <h3 class="bullet">Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a></h3>
-        <ul>
-          <li>Bullet 1</li>
-          <li>Bullet 2</li>
-          <li>Bullet 3</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Syntax Highlighting</h2>
-        <h3>Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a></h3>
-        <pre><code class="language-javascript">bespoke.from('article', [
-  classes(),
-  keys(),
-  touch(),
-  bullets('li, .bullet')
-]);
-</code></pre>
-      </section>
-      <section data-bespoke-hash="named-route">
-        <h2>Named Route</h2>
-        <h3>Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a></h3>
-        <p>Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.</p>
-      </section>
-      <section data-bespoke-backdrop="emphatic" class="emphatic-text">
-        <h2>Emphatic Slide!</h2>
-        <h3>Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a></h3>
-      </section>
-      <section>
-        <h2 class="bullet">Just the beginning...</h2><br>
-        <ul>
-          <li>Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em></li>
-          <li>Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em></li>
-          <li>Edit JavaScript in <em>'src/scripts/main.js'</em></li>
-        </ul><br>
-        <ul>
-          <li><strong>Enjoy! :)</strong><a href="http://twitter.com/markdalgleish"> -@markdalgleish</a></li>
-        </ul>
+      <section data-bespoke-backdrop="ungucakep" class="emphatic-text">
+        <form name="sci-calc">
+          <table cellspacing="0" cellpadding="1" class="calculator">
+            <tr>
+              <td colspan="5">
+                <input id="display" name="display" value="0" size="28" maxlength="25"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" name="btnTop" value="C" onclick="this.form.display.value=  0 " class="btnTop"/>
+              </td>
+              <td>
+                <input type="button" name="btnTop" value="&lt;--" onclick="deleteChar(this.form.display)" class="btnTop"/>
+              </td>
+              <td>
+                <input type="button" name="btnTop" value="=" onclick="if(checkNum(this.form.display.value)) { compute(this.form) }" class="btnTop"/>
+              </td>
+              <td>
+                <input type="button" name="btnOpps" value="π" onclick="addChar(this.form.display,'3.14159265359')" class="btnOpps"/>
+              </td>
+              <td>
+                <input type="button" name="btnMath" value="%" onclick=" percent(this.form.display)" class="btnMath"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" name="btnNum" value="7" onclick="addChar(this.form.display, '7')" class="btnNum"/>
+              </td>
+              <td>
+                <input type="button" name="btnNum" value="8" onclick="addChar(this.form.display, '8')" class="btnNum"/>
+              </td>
+              <td>
+                <input type="button" name="btnNum" value="9" onclick="addChar(this.form.display, '9')" class="btnNum"/>
+              </td>
+              <td>
+                <input type="button" name="btnOpps" value="x^" onclick="if(checkNum(this.form.display.value)) { exponent(this.form) }" class="btnOpps"/>
+              </td>
+              <td>
+                <input type="button" name="btnMath" value="/" onclick="addChar(this.form.display, '/')" class="btnMath"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" name="btnNum" value="4" onclick="addChar(this.form.display, '4')" class="btnNum"/>
+              </td>
+              <td>
+                <input type="button" name="btnNum" value="5" onclick="addChar(this.form.display, '5')" class="btnNum"/>
+              </td>
+              <td>
+                <input type="button" name="btnNum" value="6" onclick="addChar(this.form.display, '6')" class="btnNum"/>
+              </td>
+              <td>
+                <input type="button" name="btnOpps" value="ln" onclick="if(checkNum(this.form.display.value)) { ln(this.form) }" class="btnOpps"/>
+              </td>
+              <td>
+                <input type="button" name="btnMath" value="*" onclick="addChar(this.form.display, '*')" class="btnMath"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" name="btnNum" value="1" onclick="addChar(this.form.display, '1')" class="btnNum"/>
+              </td>
+              <td>
+                <input type="button" name="btnNum" value="2" onclick="addChar(this.form.display, '2')" class="btnNum"/>
+              </td>
+              <td>
+                <input type="button" name="btnNum" value="3" onclick="addChar(this.form.display, '3')" class="btnNum"/>
+              </td>
+              <td>
+                <input type="button" name="btnOpps" value="√" onclick="if(checkNum(this.form.display.value)) { sqrt(this.form) }" class="btnOpps"/>
+              </td>
+              <td>
+                <input type="button" name="btnMath" value="-" onclick="addChar(this.form.display, '-')" class="btnMath"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" name="btnMath" value="+ / -" onclick="changeSign(this.form.display)" class="btnMath"/>
+              </td>
+              <td>
+                <input type="button" name="btnNum" value="0" onclick="addChar(this.form.display, '0')" class="btnNum"/>
+              </td>
+              <td>
+                <input type="button" name="btnMath" value="." onclick="addChar(this.form.display, '.')" class="btnMath"/>
+              </td>
+              <td>
+                <input type="button" name="btnOpps" value="x2" onclick="if(checkNum(this.form.display.value)) { square(this.form) }" class="btnOpps"/>
+              </td>
+              <td>
+                <input type="button" name="btnMath" value="+" onclick="addChar(this.form.display, '+')" class="btnMath"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" name="btnMath" value="(" onclick="addChar(this.form.display, '(')" class="btnMath"/>
+              </td>
+              <td>
+                <input type="button" name="btnMath" value=")" onclick="addChar(this.form.display,')')" class="btnMath"/>
+              </td>
+              <td>
+                <input type="button" name="btnMath" value="cos" onclick="if(checkNum(this.form.display.value)) { cos(this.form) }" class="btnMath"/>
+              </td>
+              <td>
+                <input type="button" name="btnMath" value="sin" onclick="if(checkNum(this.form.display.value)) { sin(this.form) }" class="btnMath"/>
+              </td>
+              <td>
+                <input type="button" name="btnMath" value="tan" onclick="if(checkNum(this.form.display.value)) { tan(this.form) }" class="btnMath"/>
+              </td>
+            </tr>
+          </table>
+        </form>
       </section>
     </article>
     <script src="build/build.js"></script>
+    <script src="build/Calc.js"></script>
   </body>
 </html>

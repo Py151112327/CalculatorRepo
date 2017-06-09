@@ -1,79 +1,127 @@
-doctype html
 html
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     title Calculator
-
     link(rel='stylesheet', type='text/css', href='build/build.css')
-
+    // first link to jquery
+    
   body
-
-    article
+    
+    article(class="bespoke-parent")
         
-      section
+      section.emphatic-text(data-bespoke-backdrop='zamrud')
+        
         h1 Project TKPPL
         h2 Presentasi Dengan Bespoke
         h3 Kolaborasi & Planning Dengan Tools Trello dan Github
 
-      section
-        h1 Isi dengan Anggota Kelompok
+      section.emphatic-text(data-bespoke-backdrop='merahtomat')
+        h1(font-size=" px") Topik: Calculator
+        h6 Alamat Github: https://github.com/Py151112327/CalculatorRepo.git
+        h6 Alamat Trello: https://trello.com/b/pOZbNIAV/calculator
+        ul(id="contslide2")
+            li(class="boxAnggota2")
+            li(class="boxAnggota")
+                h5 Anggota 1
+                    h6 Nama : Pyter Wahyu
+                    h6 NIM  : 151112327
+            li(class="boxAnggota")
+                h5 Anggota 2 
+                    h6 Nama : Dicky Valentinus
+                    h6 NIM  : 151110261
+            li(class="boxAnggota")
+                h5 Anggota 3
+                    h6 Nama : Vincent Valentinus
+                    h6 NIM  : 151110288
+            li(class="boxAnggota")
+                h5 Anggota 4
+                    h6 Nama : Stanley Junius
+                    h6 NIM  : 151110725
       
-      section
+      section.emphatic-text(data-bespoke-backdrop='hijoterang')
         h1 Calculator
 
-      section
-        h2 Kosong Isi dengan (max : 3 slide) berisi sejarah Calculator
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
+      section.emphatic-text(data-bespoke-backdrop='ungucakep')
+        form(name='sci-calc')
+            table.calculator(cellspacing='0', cellpadding='1')
+                tr
+                  td(colspan='5')
+                    input#display(name='display', value='0', size='28', maxlength='25')
+                tr
+                  td
+                    input.btnTop(type='button', name='btnTop', value='C', onclick='this.form.display.value=  0 ')
+                  td
+                    input.btnTop(type='button', name='btnTop', value='<--', onclick='deleteChar(this.form.display)')
+                  td
+                    input.btnTop(type='button', name='btnTop', value='=', onclick='if(checkNum(this.form.display.value)) { compute(this.form) }')
+                  td
+                    input.btnOpps(type='button', name='btnOpps', value='π', onclick="addChar(this.form.display,'3.14159265359')")
+                  td
+                    input.btnMath(type='button', name='btnMath', value='%', onclick=' percent(this.form.display)')
+                tr
+                  td
+                    input.btnNum(type='button', name='btnNum', value='7', onclick="addChar(this.form.display, '7')")
+                  td
+                    input.btnNum(type='button', name='btnNum', value='8', onclick="addChar(this.form.display, '8')")
+                  td
+                    input.btnNum(type='button', name='btnNum', value='9', onclick="addChar(this.form.display, '9')")
+                  td
+                    input.btnOpps(type='button', name='btnOpps', value='x^', onclick='if(checkNum(this.form.display.value)) { exponent(this.form) }')
+                  td
+                    input.btnMath(type='button', name='btnMath', value='/', onclick="addChar(this.form.display, '/')")
+                tr
+                  td
+                    input.btnNum(type='button', name='btnNum', value='4', onclick="addChar(this.form.display, '4')")
+                  td
+                    input.btnNum(type='button', name='btnNum', value='5', onclick="addChar(this.form.display, '5')")
+                  td
+                    input.btnNum(type='button', name='btnNum', value='6', onclick="addChar(this.form.display, '6')")
+                  td
+                    input.btnOpps(type='button', name='btnOpps', value='ln', onclick='if(checkNum(this.form.display.value)) { ln(this.form) }')
+                  td
+                    input.btnMath(type='button', name='btnMath', value='*', onclick="addChar(this.form.display, '*')")
+                tr
+                  td
+                    input.btnNum(type='button', name='btnNum', value='1', onclick="addChar(this.form.display, '1')")
+                  td
+                    input.btnNum(type='button', name='btnNum', value='2', onclick="addChar(this.form.display, '2')")
+                  td
+                    input.btnNum(type='button', name='btnNum', value='3', onclick="addChar(this.form.display, '3')")
+                  td
+                    input.btnOpps(type='button', name='btnOpps', value='√', onclick='if(checkNum(this.form.display.value)) { sqrt(this.form) }')
+                  td
+                    input.btnMath(type='button', name='btnMath', value='-', onclick="addChar(this.form.display, '-')")
+                tr
+                  td
+                    input.btnMath(type='button', name='btnMath', value='+ / -', onclick='changeSign(this.form.display)')
+                  td
+                    input.btnNum(type='button', name='btnNum', value='0', onclick="addChar(this.form.display, '0')")
+                  td
+                    input.btnMath(type='button', name='btnMath', value='.', onclick="addChar(this.form.display, '.')")
+                  td
+                    input.btnOpps(type='button', name='btnOpps', value='x2', onclick='if(checkNum(this.form.display.value)) { square(this.form) }')
+                  td
+                    input.btnMath(type='button', name='btnMath', value='+', onclick="addChar(this.form.display, '+')")
+                tr
+                  td
+                    input.btnMath(type='button', name='btnMath', value='(', onclick="addChar(this.form.display, '(')")
+                  td
+                    input.btnMath(type='button', name='btnMath', value=')', onclick="addChar(this.form.display,')')")
+                  td
+                    input.btnMath(type='button', name='btnMath', value='cos', onclick='if(checkNum(this.form.display.value)) { cos(this.form) }')
+                  td
+                    input.btnMath(type='button', name='btnMath', value='sin', onclick='if(checkNum(this.form.display.value)) { sin(this.form) }')
+                  td
+                    input.btnMath(type='button', name='btnMath', value='tan', onclick='if(checkNum(this.form.display.value)) { tan(this.form) }')
+         
 
-      section
-        h2 Program Calculator Dengan Javascript
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
-
-      section
-        h2 Penutup
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-      section
-        h2 Bullet List
-        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
-        ul
-          li Bullet 1
-          li Bullet 2
-          li Bullet 3
-
-      section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        pre
-          code.language-javascript.
-            bespoke.from('article', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet')
-            ]);
-
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
-
-      section
-        h2.bullet Just the beginning...
-        br
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        br
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
 
     script(src='build/build.js')
+    script(src='build/Calc.js')
+
+
+      
+
+    
+
