@@ -7,3 +7,10 @@ Note :
 - Cek apakah hari ini ada push atau tidak karna bisa saja salah satu member berhalangan untuk melakukan push ,
   jika sampai jam 11 malam dalam suatu hari tidak ada yang push maka diwajibkan ambil inisiatif untuk melakukan push file apa saja
   boleh melalui web github ini (tidak perlu melalui git bash namun diusahakan pakai gitbash agar rapi commitnya) 
+  
+ 
+Note 2 :
+- Jika terjadi kesalahan push maka bisa di undo dengan :
+  1) git reset --hard <kode commit nya> , contoh : git reset --hard bf34k7232gehjghjgdg2t62382e8
+  2) git push -f origin HEAD^:nama branch yang ingin di undo , contoh : git push -f origin HEAD^:master
+  3) git reset -f --soft HEAD~
