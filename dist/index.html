@@ -62,7 +62,7 @@
                 <input type="button" name="btnTop" value="C" onclick="this.form.display.value=  0 " class="btnTop"/>
               </td>
               <td>
-                <input type="button" name="btnTop" value="&lt;--" onclick="deleteChar(this.form.display)" class="btnTop"/>
+                <input type="button" name="btnTop" value="del" onclick="deleteChar(this.form.display)" class="btnTop"/>
               </td>
               <td>
                 <input type="button" name="btnTop" value="=" onclick="if(checkNum(this.form.display.value)) { compute(this.form) }" class="btnTop"/>
@@ -85,7 +85,7 @@
                 <input type="button" name="btnNum" value="9" onclick="addChar(this.form.display, '9')" class="btnNum"/>
               </td>
               <td>
-                <input type="button" name="btnOpps" value="x^" onclick="if(checkNum(this.form.display.value)) { exponent(this.form) }" class="btnOpps"/>
+                <input type="button" name="btnOpps" value="exp" onclick="if(checkNum(this.form.display.value)) { exponent(this.form) }" class="btnOpps"/>
               </td>
               <td>
                 <input type="button" name="btnMath" value="/" onclick="addChar(this.form.display, '/')" class="btnMath"/>
@@ -105,7 +105,7 @@
                 <input type="button" name="btnOpps" value="ln" onclick="if(checkNum(this.form.display.value)) { ln(this.form) }" class="btnOpps"/>
               </td>
               <td>
-                <input type="button" name="btnMath" value="*" onclick="addChar(this.form.display, '*')" class="btnMath"/>
+                <input type="button" name="btnMath" value="x" onclick="addChar(this.form.display, 'X')" class="btnMath"/>
               </td>
             </tr>
             <tr>
