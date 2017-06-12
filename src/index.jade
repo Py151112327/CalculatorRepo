@@ -7,11 +7,8 @@ html
     // first link to jquery
     
   body
-    
     article(class="bespoke-parent")
-        
       section.emphatic-text(data-bespoke-backdrop='zamrud')
-        
         h1 Project TKPPL
         h2 Presentasi Dengan Bespoke
         h3 Kolaborasi & Planning Dengan Tools Trello dan Github
@@ -40,14 +37,15 @@ html
                     h6 NIM  : 151110725
       
       section.emphatic-text(data-bespoke-backdrop='hijoterang')
-        h1 Calculator
-
-      section.emphatic-text(data-bespoke-backdrop='ungucakep')
+        h1 Apa itu Calculator ?
+      section
+        
+      section.emphatic-text(data-bespoke-backdrop='khususkalku')
         form(name='sci-calc')
             table.calculator(cellspacing='0', cellpadding='1')
                 tr
                   td(colspan='5')
-                    input#display(name='display', value='0', size='28', maxlength='25')
+                    input#display(name='display', value='0', size='28', maxlength='25',disabled)
                 tr
                   td
                     input.btnTop(type='button', name='btnTop', value='C', onclick='this.form.display.value=  0 ')
