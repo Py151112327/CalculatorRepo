@@ -84,12 +84,20 @@ h6
   margin-top: -115px;
 }
 .box.bespoke-bullet.bespoke-bullet-inactive {
-  -webkit-transform: translateX(-1000px) rotate(180deg);
-  transform: translateX(-1000px) rotate(180deg);
-}
-.box.bespoke-bullet.bespoke-bullet-active {
+  -webkit-transform: translateX(-1000px) rotate(0deg);
+  transform: translateX(-1000px) rotate(0deg);
   -webkit-transition: 1s all;
   transition: 1s all;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.box.bespoke-bullet.bespoke-bullet-active {
+  -webkit-transform: translateX(0px) rotate(360deg);
+  transform: translateX(0px) rotate(360deg);
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .boxIntro,
 .boxIntro2,
@@ -139,10 +147,13 @@ h6
   background-size: 180px 110px;
 }
 .intro2 {
-  font-size: 40px;
+  font-size: 35px;
+}
+li h3 {
+  font-size: 25px;
 }
 .trik {
-  margin-top: -10px;
+  margin-top: -20px;
 }
 .khususkalku {
   background: url("../image/calcBack.jpg");
@@ -150,4 +161,26 @@ h6
 }
 .bespoke-parent {
   background: url("../image/backgroundCalcu.jpg");
+}
+.emphatic-text.bespoke-slide.bespoke-inactive.bespoke-after.bespoke-after-1[data-bespoke-backdrop=viruLangit] {
+  -webkit-transform: translateY(-1000px);
+  transform: translateY(-1000px);
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.emphatic-text.bespoke-slide.bespoke-active[data-bespoke-backdrop=viruLangit] {
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.bs {
+  -webkit-transition: 0s all;
+  transition: 0s all;
+  background: url("../image/BlueScr.gif");
+  background-size: 100% 100%;
 }

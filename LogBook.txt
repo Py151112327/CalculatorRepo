@@ -1,0 +1,344 @@
+======================================================================================================================================================================
+									INFORMASI UMUM
+======================================================================================================================================================================
+Judul Topik: Calculator
+Alamat Github: https://github.com/Py151112327/CalculatorRepo.git
+Alamat Trello: https://trello.com/b/pOZbNIAV/calculator
+Anggota 1
+      Nama	: Pyter Wahyu
+      NIM	: 151112327
+Anggota 2 
+      Nama	: Dicky Valentinus
+      NIM	: 151110261
+Anggota 3
+      Nama	: Vincent Valentinus
+      NIM  	: 151110288
+Anggota 4
+      Nama	: Stanley Junius
+      NIM  	: 151110725
+
+======================================================================================================================================================================
+
+=========================================================
+		SPRINT SCHEDULE 				||
+							||
+Sprint 1:							||
+02/6 - 04/6						||	
+Scrummaster: Pyter Wahyu - 151112327			||
+							||
+Sprint 2:							||
+5/6 - 7/6							||
+Scrummaster: Stanley Junius - 151110725 			||
+							||
+Sprint 3: 							||
+8/6 - 10/6						||
+Scrummaster: Dicky Valentinus - 151110261 			||
+							||
+Sprint 3: 							||
+11/6 - 13/6						||
+Scrummaster: Vincent Valentinus - 151110288 			||
+=========================================================
+
+Progress Harian (Diupdate tiap hari)
+======================================================================================================================================================================
+
+Sprint 1 (Scrummaster: Pyter Wahyu - 151112327)
+
+======================================================================================================================================================================
+02/6
+Daily Scrum 
+
+(Pyter Wahyu):
+1. Hari Pertama
+2. Hari ini saya Menginstall Bespoke Dan Node Js namun gagal
+3. Saya ada kendala di penginstallan Bespoke Js, Tampilan hanya menampilkan tulisan tanpa css saja
+
+(Stanley Junius):
+1. Hari Pertama
+2. Hari ini saya Menginstall Bespoke Dan Node Js namun gagal
+3. Saya ada kendala di penginstallan Bespoke Js, Tampilan hanya menampilkan tulisan tanpa css saja
+
+(Dicky Valentinus):
+1. Hari Pertama
+2. Hari ini saya Menginstall Bespoke Dan Node Js namun gagal
+3. Saya ada kendala di penginstallan Node Js, Perintah npm hanya berjalan di dalam folder Node Js saja Tidak dpt dijalankan difolder lain
+
+(Vincent Valentinus)
+1. Hari Pertama
+2. Hari ini saya Menginstall Bespoke Dan Node Js namun gagal
+3. Saya ada kendala di penginstallan Bespoke Js, Tampilan hanya menampilkan tulisan tanpa css saja
+
+======================================================================================================================================================================
+03/6
+Daily Scrum
+
+(Pyter Wahyu):
+1. Semalam saya menginstall Bespoke Js Dan Node Js Namun masih belom berhasil
+2. Hari ini saya mentroubleshoot masalah pengistallan
+3. Masalah pada Bespoke.js 
+
+(Stanley Junius):
+1. Semalam saya menginstall Bespoke Js Dan Node Js Namun masih belom berhasil
+2. Hari ini saya mendiskusikan judul topik
+3. Tidak ada masalah
+
+(Dicky Valentinus):
+1. Semalam saya menginstall Bespoke Js Dan Node Js Namun masih belom berhasil
+2. Hari ini saya mendiskusikan judul topik
+3. Tidak ada masalah
+
+(Vincent Valentinus)
+1. Semalam saya menginstall Bespoke Js Dan Node Js Namun masih belom berhasil
+2. Hari ini saya mendiskusikan judul topik
+3. tidak ada masalah
+======================================================================================================================================================================
+04/6
+Daily Scrum
+
+(Pyter Wahyu):
+1. Semalam saya mentroubleshoot masalah pengistallan
+2. Hari ini saya berhasil menginstall node js dan bespoke js
+3. Saya ada tidak ada kendala
+
+(Stanley Junius):
+1. Semalam saya mendiskusikan judul topik
+2. Hari ini saya menginstall bespoke dan node js
+3. Saya tidak ada kendala 
+
+(Dicky Valentinus):
+1. Semalam saya mendiskusikan judul topik
+2. Hari ini saya menginstall bespoke dan node js
+3. Tidak ada masalah
+
+(Vincent Valentinus)
+1. Semalam saya mendiskusikan judul topik
+2. Hari ini saya menginstall bespoke dan node js
+3. Tidak ada masalah
+======================================================================================================================================================================
+
+Sprint 2 (Scrum master: Stanley Junius)
+
+======================================================================================================================================================================
+Daily Scrum 
+05/6
+
+(Pyter Wahyu)
+1.kemarin saya menginstall bespoke dan node js
+2.membuat repository Remote  dan lokal Github dan install git dan mempelajari pemakaian git
+3.Tidak ada masalah
+
+(Stanley Junius)
+1. Semalam saya menginstall bespoke dan node js
+2. Hari ini saya melakukan clone pada repository remote dan mempelajari pemakaian git
+3. Tanpa masalah
+
+(Dicky Valentinus)
+1. kemarin saya menginstall bespoke dan node js
+2. Hari ini saya melakukan clone pada repository remote dan mempelajari pemakaian git
+3. Gagal Clone
+
+(Vincent Valentinus)
+1. kemarin saya menginstall bespoke dan node js
+2. Hari ini saya melakukan clone pada repository remote dan mempelajari pemakaian git
+3. Gagal Clone
+
+======================================================================================================================================================================
+Daily Scrum
+06/6
+
+(Pyter Wahyu)
+1.kemarin membuat repository Remote dan lokal Github dan install git dan mempelajari pemakaian git
+2.mentroubleshoot masalah penginstallan git pada dicky dan vincent
+3.Tidak ada masalah
+
+(Stanley Junius)
+1. Semalam saya melakukan clone pada repository remote dan mempelajari pemakaian git
+2. Hari ini saya melakukan coding pembuatan slide 1
+3. kesulitan pada pemakaian jade
+
+(Dicky Valentinus)
+1. kemarin saya melakukan clone pada repository remote dan mempelajari pemakaian git namun gagal
+2. Hari ini saya melakukan clone pada repository remote dan berhasil
+3. tidak ada masalah
+
+(Vincent Valentinus)
+1. kemarin saya melakukan clone pada repository remote dan mempelajari pemakaian git namun gagal
+2. Hari ini saya melakukan clone pada repository remote dan berhasil
+3. tidak ada masalah
+
+======================================================================================================================================================================
+Daily Scrum
+07/6
+
+(Pyter Wahyu)
+1.kemarin mentroubleshoot masalah penginstallan git pada dicky dan vincent
+2.mengerjakan slide 1 & membuat styling pada slide 1
+3.belum paham pemakaian jade dan stylus 
+
+(Stanley Junius)
+1. Semalam saya saya melakukan coding pembuatan slide 1
+2. Hari ini saya menambah bespoke nebula theme pada projek bespoke
+3. Tanpa masalah
+
+(Dicky Valentinus)
+1. kemarin saya melakukan clone pada repository
+2.mengerjakan slide 1 & membuat styling pada slide 1
+3.belum paham pemakaian jade dan stylus 
+
+(Vincent Valentinus)
+1. kemarin saya melakukan clone pada repository
+2.mengerjakan slide 1 & membuat styling pada slide 1
+3.belum paham pemakaian jade dan stylus 
+
+======================================================================================================================================================================
+
+Sprint 3 (Scrummaster: Dicky Valentinus - 151110261) 
+
+======================================================================================================================================================================
+Daily Scrum
+08/6
+
+(Pyter Wahyu)
+1.kemarin mengerjakan slide 1 & membuat styling pada slide 1
+2.mengerjakan modifikasi pada bespoke-nebula.js untuk styling tambahan 
+3. code javascriptnya sulit dimengerti
+
+(Stanley Junius)
+1. Semalam saya menambah bespoke nebula theme pada projek bespoke
+2. Hari ini mengerjakan modifikasi pada bespoke-nebula.js untuk styling tambahan 
+3. code javascriptnya sulit dimengerti
+
+(Dicky Valentinus)
+1. kemarin saya mengerjakan slide 1 & membuat styling pada slide 1
+2.kemarin saya mengerjakan slide 1 & membuat styling pada slide 1
+3.aman
+
+(Vincent Valentinus)
+1. kemarin saya mengerjakan slide 1 & membuat styling pada slide 1
+2.kemarin saya mengerjakan slide 1 & membuat styling pada slide 1
+3.tanpa masalah 
+
+======================================================================================================================================================================
+Daily Scrum
+9/6
+
+(Pyter Wahyu)
+1.kemarin mengerjakan modifikasi pada bespoke-nebula.js untuk styling tambahan 
+2.mengerjakan modifikasi pada bespoke-nebula.js untuk styling tambahan 
+3.code javascriptnya sulit dimengerti
+
+(Stanley Junius)
+1. Semalam saya mengerjakan modifikasi pada bespoke-nebula.js untuk styling tambahan 
+2. Hari ini saya tidak mengerjakan
+3. sibuk dengan pekerjaan di kantor
+
+(Dicky Valentinus)
+1. kemarin saya mengerjakan slide 1 & membuat styling pada slide 1
+2.membuat slide 2
+3.tanpa masalah
+
+(Vincent Valentinus)
+1. kemarin saya mengerjakan slide 1 & membuat styling pada slide 1
+2.membuat slide 5 dan 6 
+3.tanpa masalah
+
+======================================================================================================================================================================
+Daily Scrum
+10/6
+
+(Pyter Wahyu)
+1.mengerjakan modifikasi pada bespoke-nebula.js untuk styling tambahan 
+2.mengerjakan slide 2 dan slide 4
+3.membuat styling efek bergeser pada item dengan tag <li></li>
+
+(Stanley Junius)
+1. Semalam saya tidak mengerjakan
+2. mengerjakan slide 2 dan slide 4
+3. membuat styling pada item <li> </li>
+
+(Dicky Valentinus)
+1. kemarin saya membuat slide 2
+2.membuat slide 2
+3.tanpa masalah
+
+(Vincent Valentinus)
+1. kemarin saya membuat slide 5 dan 6 
+2.membuat slide 5 dan 6
+3.tanpa masalah
+
+======================================================================================================================================================================
+
+Sprint 4 (Scrummaster: Vincent Valentinus - 151110288 ) 
+
+======================================================================================================================================================================
+Daily Scrum 
+11/6
+
+(Pyter Wahyu)
+1.mengerjakan slide 2 dan slide 4
+2.mengerjakan slide 2 dan slide 4
+3.tanpa masalah
+
+(Stanley Junius)
+1. mengerjakan slide 2 dan slide 4
+2. mengerjakan slide 2 dan slide 4
+3. tanpa masalah
+
+(Dicky Valentinus)
+1. kemarin saya membuat slide 2
+2.membuat slide 3
+3.tanpa masalah
+
+(Vincent Valentinus)
+1. kemarin saya membuat slide 5 dan 6 
+2.membuat slide 7
+3.tanpa masalah
+
+======================================================================================================================================================================
+Daily Scrum
+12/6
+
+(Pyter Wahyu)
+1.mengerjakan slide 2 dan slide 4
+2.mengerjakan pemasangan javascript calculator pada slide 7 namun gagal
+3.javascript tidak masuk ke html nya
+
+(Stanley Junius)
+1. mengerjakan slide 2 dan slide 4
+2. menyusun log book
+3. no problem
+
+(Dicky Valentinus)
+1. membuat slide 3
+2.membuat slide 8 dan styling slide 8
+3.tanpa masalah
+
+(Vincent Valentinus)
+1.membuat slide 7 
+2.membuat slide 8 dan styling slide 8
+3.tanpa masalah
+
+======================================================================================================================================================================Daily Scrum 
+13/6
+
+(Pyter Wahyu)
+1.mengerjakan pemasangan javascript calculator pada slide 7 dan berhasil
+2. penyelesaian javascript dan styling slide 7
+3.no problem
+
+(Stanley Junius)
+1. Semalam saya menyusun log book
+2. mencari bug dan finishing presentasi
+3. tidak ada masalah
+
+(Dicky Valentinus)
+1. kemarin saya membuat slide 8 dan styling slide 8
+2.membuat burntdown chart
+3.tanpa masalah
+
+(Vincent Valentinus)
+1. kemarin saya membuat slide 8 dan styling slide 8
+2. menyusun backlog
+3.tanpa masalah
+
+======================================================================================================================================================================

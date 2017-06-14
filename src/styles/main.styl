@@ -80,10 +80,14 @@
     margin-top:-115px
     
 .box.bespoke-bullet.bespoke-bullet-inactive
-    transform:translateX(-1000px) rotate(180deg)
+    transform:translateX(-1000px) rotate(0deg)
+    transition 1s all
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     
 .box.bespoke-bullet.bespoke-bullet-active
+    transform:translateX(0px) rotate(360deg)
     transition:1s all
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     
 .boxIntro,.boxIntro2,.boxIntro3,.boxIntro4,.boxIntro5
     float:left
@@ -127,10 +131,13 @@
     background-size:180px 110px
 
 .intro2
-    font-size:40px
+    font-size:35px
+
+li h3
+    font-size 25px
 
 .trik
-    margin-top:-10px
+    margin-top:-20px
 
 .khususkalku
     background:url(../image/calcBack.jpg)
@@ -138,3 +145,18 @@
 
 .bespoke-parent
     background:url(../image/backgroundCalcu.jpg)
+    
+.emphatic-text.bespoke-slide.bespoke-inactive.bespoke-after.bespoke-after-1[data-bespoke-backdrop=viruLangit]
+    transform:translateY(-1000px)
+    transition 1s all
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+.emphatic-text.bespoke-slide.bespoke-active[data-bespoke-backdrop=viruLangit]
+    transform:translateY(0px)
+    transition:1s all
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+.bs
+    transition:0s all
+    background:url(../image/BlueScr.gif)
+    background-size: 100% 100%
