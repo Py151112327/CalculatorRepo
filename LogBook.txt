@@ -20,23 +20,23 @@ Anggota 4
 ======================================================================================================================================================================
 
 =========================================================
-		SPRINT SCHEDULE 				||
+		SPRINT SCHEDULE 			||
 							||
-Sprint 1:							||
+Sprint 1:						||
 02/6 - 04/6						||	
 Scrummaster: Pyter Wahyu - 151112327			||
 							||
-Sprint 2:							||
-5/6 - 7/6							||
-Scrummaster: Stanley Junius - 151110725 			||
+Sprint 2:						||
+5/6 - 7/6						||
+Scrummaster: Stanley Junius - 151110725 		||
 							||
-Sprint 3: 							||
+Sprint 3: 						||
 8/6 - 10/6						||
-Scrummaster: Dicky Valentinus - 151110261 			||
+Scrummaster: Dicky Valentinus - 151110261 		||
 							||
-Sprint 3: 							||
+Sprint 3: 						||
 11/6 - 13/6						||
-Scrummaster: Vincent Valentinus - 151110288 			||
+Scrummaster: Vincent Valentinus - 151110288 		||
 =========================================================
 
 Progress Harian (Diupdate tiap hari)
